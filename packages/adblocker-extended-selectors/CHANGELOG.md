@@ -1,3 +1,42 @@
+# v1.27.11 (Mon Jun 10 2024)
+
+#### :nut_and_bolt: Dependencies
+
+- Build(deps-dev): Bump nyc from 15.1.0 to 17.0.0 [#4015](https://github.com/ghostery/adblocker/pull/4015) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 1
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+
+---
+
+# v1.27.8 (Thu Jun 06 2024)
+
+#### :bug: Bug Fix
+
+- Bump version to: v1.27.7 \[skip ci\] [#4005](https://github.com/ghostery/adblocker/pull/4005) ([@adblocker-bot](https://github.com/adblocker-bot))
+- Update CHANGELOG.md \[skip ci\] ([@adblocker-bot](https://github.com/adblocker-bot))
+
+#### :nail_care: Polish
+
+- Rename cliqz-oss to ghostery [#3986](https://github.com/ghostery/adblocker/pull/3986) ([@chrmod](https://github.com/chrmod))
+
+#### ⚠️ Pushed to `master`
+
+- Build system: update rollup plugins ([@chrmod](https://github.com/chrmod))
+
+#### :house: Internal
+
+- ESLint update [#3977](https://github.com/ghostery/adblocker/pull/3977) ([@chrmod](https://github.com/chrmod))
+- ESM modules [#3924](https://github.com/ghostery/adblocker/pull/3924) ([@chrmod](https://github.com/chrmod))
+
+#### Authors: 2
+
+- Adblocker Bot ([@adblocker-bot](https://github.com/adblocker-bot))
+- Krzysztof Modras ([@chrmod](https://github.com/chrmod))
+
+---
+
 # v1.27.4 (Wed Jun 05 2024)
 
 #### :nail_care: Polish

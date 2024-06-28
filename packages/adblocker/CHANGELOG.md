@@ -1,3 +1,56 @@
+# v1.27.11 (Mon Jun 10 2024)
+
+#### :bug: Bug Fix
+
+- fix: filters being duplicated by preprocessors [#4016](https://github.com/ghostery/adblocker/pull/4016) ([@seia-soto](https://github.com/seia-soto))
+
+#### :nut_and_bolt: Dependencies
+
+- Build(deps-dev): Bump nyc from 15.1.0 to 17.0.0 [#4015](https://github.com/ghostery/adblocker/pull/4015) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- HoJeong Go ([@seia-soto](https://github.com/seia-soto))
+
+---
+
+# v1.27.8 (Thu Jun 06 2024)
+
+#### :bug: Bug Fix
+
+- Bump version to: v1.27.7 \[skip ci\] [#4005](https://github.com/ghostery/adblocker/pull/4005) ([@adblocker-bot](https://github.com/adblocker-bot))
+- Update CHANGELOG.md \[skip ci\] ([@adblocker-bot](https://github.com/adblocker-bot))
+
+#### :nail_care: Polish
+
+- Fix benchmark setup [#3991](https://github.com/ghostery/adblocker/pull/3991) ([@chrmod](https://github.com/chrmod))
+- Rename cliqz-oss to ghostery [#3986](https://github.com/ghostery/adblocker/pull/3986) ([@chrmod](https://github.com/chrmod))
+
+#### ⚠️ Pushed to `master`
+
+- Build system: update rollup plugins ([@chrmod](https://github.com/chrmod))
+
+#### :house: Internal
+
+- ESLint update [#3977](https://github.com/ghostery/adblocker/pull/3977) ([@chrmod](https://github.com/chrmod))
+- Update local assets [#3940](https://github.com/ghostery/adblocker/pull/3940) (ghostery-adblocker-bot@users.noreply.github.com [@ghostery-adblocker-bot[bot]](https://github.com/ghostery-adblocker-bot[bot]))
+- ESM modules [#3924](https://github.com/ghostery/adblocker/pull/3924) ([@chrmod](https://github.com/chrmod))
+
+#### :nut_and_bolt: Dependencies
+
+- Build(deps): Bump @types/chrome from 0.0.267 to 0.0.268 [#3952](https://github.com/ghostery/adblocker/pull/3952) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 5
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@ghostery-adblocker-bot[bot]](https://github.com/ghostery-adblocker-bot[bot])
+- Adblocker Bot ([@adblocker-bot](https://github.com/adblocker-bot))
+- Ghostery Adblocker Bot (ghostery-adblocker-bot@users.noreply.github.com)
+- Krzysztof Modras ([@chrmod](https://github.com/chrmod))
+
+---
+
 # v1.27.4 (Wed Jun 05 2024)
 
 #### :nail_care: Polish
