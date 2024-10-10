@@ -1,3 +1,61 @@
+# v1.33.2 (Wed Sep 04 2024)
+
+#### :bug: Bug Fix
+
+- `@cliqz/adblocker-webextension`, `@cliqz/adblocker`
+  - Fix $replace option parsing [#4241](https://github.com/ghostery/adblocker/pull/4241) ([@chrmod](https://github.com/chrmod) [@seia-soto](https://github.com/seia-soto))
+
+#### :house: Internal
+
+- `@cliqz/adblocker`
+  - Update local assets [#4229](https://github.com/ghostery/adblocker/pull/4229) (ghostery-adblocker-bot@users.noreply.github.com [@ghostery-adblocker-bot[bot]](https://github.com/ghostery-adblocker-bot[bot]))
+
+#### :nut_and_bolt: Dependencies
+
+- Build(deps-dev): Bump @types/node from 22.5.2 to 22.5.3 [#4247](https://github.com/ghostery/adblocker/pull/4247) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump typescript-eslint from 8.3.0 to 8.4.0 [#4245](https://github.com/ghostery/adblocker/pull/4245) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump axios from 1.7.5 to 1.7.7 [#4242](https://github.com/ghostery/adblocker/pull/4242) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump @types/node from 22.5.1 to 22.5.2 [#4243](https://github.com/ghostery/adblocker/pull/4243) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump rollup from 4.21.1 to 4.21.2 [#4244](https://github.com/ghostery/adblocker/pull/4244) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump auto from 11.2.0 to 11.2.1 [#4239](https://github.com/ghostery/adblocker/pull/4239) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `@cliqz/adblocker-puppeteer`
+  - Build(deps): Bump puppeteer from 23.2.1 to 23.2.2 [#4248](https://github.com/ghostery/adblocker/pull/4248) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+  - Build(deps): Bump puppeteer from 23.2.0 to 23.2.1 [#4240](https://github.com/ghostery/adblocker/pull/4240) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 5
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- [@ghostery-adblocker-bot[bot]](https://github.com/ghostery-adblocker-bot[bot])
+- Ghostery Adblocker Bot (ghostery-adblocker-bot@users.noreply.github.com)
+- HoJeong Go ([@seia-soto](https://github.com/seia-soto))
+- Krzysztof Modras ([@chrmod](https://github.com/chrmod))
+
+---
+
+# v1.33.1 (Wed Aug 28 2024)
+
+#### :bug: Bug Fix
+
+- `@cliqz/adblocker`
+  - Override hiding style in `CosmeticBucket.getCosmeticsFilters` [#4238](https://github.com/ghostery/adblocker/pull/4238) ([@seia-soto](https://github.com/seia-soto))
+
+#### :nut_and_bolt: Dependencies
+
+- Build(deps-dev): Bump typescript-eslint from 8.2.0 to 8.3.0 [#4230](https://github.com/ghostery/adblocker/pull/4230) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump rollup from 4.21.0 to 4.21.1 [#4231](https://github.com/ghostery/adblocker/pull/4231) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump @types/node from 22.5.0 to 22.5.1 [#4235](https://github.com/ghostery/adblocker/pull/4235) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump @types/chai from 4.3.17 to 4.3.19 [#4236](https://github.com/ghostery/adblocker/pull/4236) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Build(deps-dev): Bump tsx from 4.18.0 to 4.19.0 [#4237](https://github.com/ghostery/adblocker/pull/4237) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- `@cliqz/adblocker-puppeteer`
+  - Build(deps): Bump puppeteer from 23.1.1 to 23.2.0 [#4233](https://github.com/ghostery/adblocker/pull/4233) ([@dependabot[bot]](https://github.com/dependabot[bot]))
+
+#### Authors: 2
+
+- [@dependabot[bot]](https://github.com/dependabot[bot])
+- HoJeong Go ([@seia-soto](https://github.com/seia-soto))
+
+---
+
 # v1.33.0 (Mon Aug 26 2024)
 
 #### :rocket: New Feature

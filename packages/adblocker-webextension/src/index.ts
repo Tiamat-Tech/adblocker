@@ -6,7 +6,7 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-import { Browser, Runtime, WebRequest, WebNavigation } from 'webextension-polyfill-ts';
+import { Browser, Runtime, WebRequest, WebNavigation } from 'webextension-polyfill';
 import { parse } from 'tldts-experimental';
 
 import {
@@ -352,13 +352,13 @@ export class BlockingContext {
     if (this.blocker.config.loadNetworkFilters === true && this.browser.webRequest !== undefined) {
       this.browser.webRequest.onBeforeRequest.addListener(
         this.onBeforeRequest,
-        { urls: ['<all_urls>'] },
+        { urls: ['http://*/*', 'https://*/*'] },
         ['blocking'],
       );
 
       this.browser.webRequest.onHeadersReceived.addListener(
         this.onHeadersReceived,
-        { urls: ['<all_urls>'], types: ['main_frame'] },
+        { urls: ['http://*/*', 'https://*/*'] },
         ['blocking', 'responseHeaders'],
       );
     }
@@ -369,7 +369,13 @@ export class BlockingContext {
       this.browser.runtime !== undefined &&
       this.browser.runtime.onMessage !== undefined
     ) {
-      this.browser.runtime.onMessage.addListener(this.onRuntimeMessage);
+      this.browser.runtime.onMessage.addListener(
+        this.onRuntimeMessage as (
+          message: unknown,
+          sender: Runtime.MessageSender,
+          sendResponse: (response: unknown) => void,
+        ) => Promise<unknown>,
+      );
     }
 
     if (this.onCommittedHandler) {
@@ -384,7 +390,13 @@ export class BlockingContext {
     }
 
     if (this.browser.runtime !== undefined && this.browser.runtime.onMessage !== undefined) {
-      this.browser.runtime.onMessage.removeListener(this.onRuntimeMessage);
+      this.browser.runtime.onMessage.removeListener(
+        this.onRuntimeMessage as (
+          message: unknown,
+          sender: Runtime.MessageSender,
+          sendResponse: (response: unknown) => void,
+        ) => Promise<unknown>,
+      );
     }
 
     if (this.onCommittedHandler) {

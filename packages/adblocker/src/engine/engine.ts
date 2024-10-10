@@ -38,7 +38,7 @@ import { IOrganization } from './metadata/organizations.js';
 import { IPattern } from './metadata/patterns.js';
 import { fastHash } from '../utils.js';
 
-export const ENGINE_VERSION = 668;
+export const ENGINE_VERSION = 692;
 
 function shouldApplyHideException(filters: NetworkFilter[]): boolean {
   if (filters.length === 0) {
@@ -1063,6 +1063,8 @@ export default class FilterEngine extends EventEmitter<EngineEventHandlers> {
 
       getRulesFromDOM,
       getRulesFromHostname,
+
+      hidingStyle,
       isFilterExcluded: this.isFilterExcluded.bind(this),
     });
 

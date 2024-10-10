@@ -159,6 +159,7 @@ search.brave.com##+js(no-fetch-if, body%3Abrowser)
 botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,adaptive.marketing,camberlion.com,replai.io,trybawaryjny.pl##^script:has-text("join('')")
 alpacafinance.org,tt.live,future-fortune.com,abhijith.page,furucombo.app,madrigalmaps.com,adventuretix.com,bolighub.dk##^script:has-text('join("")')
 panprices.com,intercity.technology,freelancer.taxmachine.be,kodalia.com,adria.gg,fjlaboratories.com,emanualonline.com##^script:has-text(api.dataunlocker.com)
+||eldorado.gg/main.$script,1p,replace=/\,dataUnlocker:\{scriptName:\".*?\"\}//
 !#else
 botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee,creatordrop.com,panpots.com,cybernetman.com,bitdomain.biz,gerardbosch.xyz,fort-shop.kiev.ua,accuretawealth.com,resourceya.com,tracktheta.com,camberlion.com,replai.io,trybawaryjny.pl##+js(rmnt, script, %2Fjoin%5C(%5C'%5C'%5C)%2F)
 alpacafinance.org,tt.live,future-fortune.com,abhijith.page,madrigalmaps.com,adventuretix.com,bolighub.dk##+js(rmnt, script, %2Fjoin%5C(%5C%22%5C%22%5C)%2F)
@@ -170,19 +171,21 @@ panprices.com,intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaborator
 /p13n/batch/action/*$image
 ! Ad-Shield
 ! https://github.com/uBlockOrigin/uAssets/issues/9717
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, adshield-analytics-uuid, %24remove%24)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, %2F_fa_dXVpZA%3D%3D%24%2F, %24remove%24)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, %2F_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM%3D%24%2F, %24remove%24)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, %2F_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz%24%2F, %24remove%24)
-loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, %2F_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl%24%2F, %24remove%24)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,economictimes.com,gloria.hr,laleggepertutti.it,manta.com,missyusa.com,mlbpark.donga.com,motscroises.fr,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,suzusoku.blog.jp,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu##+js(set-local-storage-item, adshield-analytics-uuid, %24remove%24)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,economictimes.com,gloria.hr,laleggepertutti.it,manta.com,missyusa.com,mlbpark.donga.com,motscroises.fr,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,suzusoku.blog.jp,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu##+js(set-local-storage-item, %2F_fa_dXVpZA%3D%3D%24%2F, %24remove%24)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,economictimes.com,gloria.hr,laleggepertutti.it,manta.com,missyusa.com,mlbpark.donga.com,motscroises.fr,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,suzusoku.blog.jp,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu##+js(set-local-storage-item, %2F_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWNjZXB0YWJsZV9hZHM%3D%24%2F, %24remove%24)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,economictimes.com,gloria.hr,laleggepertutti.it,manta.com,missyusa.com,mlbpark.donga.com,motscroises.fr,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,suzusoku.blog.jp,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu##+js(set-local-storage-item, %2F_fa_Y2FjaGVfaXNfYmxvY2tpbmdfYWRz%24%2F, %24remove%24)
+loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,allthekingz.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua,infinityfree.com,wort-suchen.de,word-grabber.com,palabr.as,motscroises.fr,cruciverba.it,dramabeans.com,mynet.com,sportsseoul.com,smsonline.cloud,meeco.kr,heureka.cz,slobodnadalmacija.hr,crosswordsolver.com,cruciverba.it,economictimes.com,gloria.hr,laleggepertutti.it,manta.com,missyusa.com,mlbpark.donga.com,motscroises.fr,oeffnungszeitenbuch.de,ondemandkorea.com,oradesibiu.ro,oraridiapertura24.it,palabr.as,suzusoku.blog.jp,the-crossword-solver.com,tportal.hr,wort-suchen.de,wouldurather.io,woxikon.*,golf-live.at,motherlyvisions.com,w.grapps.me,gazetaprawna.pl,pressian.com,kreuzwortraetsel.de,verkaufsoffener-sonntag.com,raetsel-hilfe.de,horairesdouverture24.fr,nyitvatartas24.hu##+js(set-local-storage-item, %2F_fa_Y2FjaGVfYWRibG9ja19jaXJjdW12ZW50X3Njb3Jl%24%2F, %24remove%24)
 meconomynews.com,brandbrief.co.kr,motorgraph.com,topstarnews.net##+js(noeval-if, %2F07c225f3%5C.online%7Ccontent-loader%5C.com%7Ccss-load%5C.com%7Chtml-load%5C.com%2F)
+||html-load.com^$domain=manta.com|tportal.hr|tvtropes.org|wouldurather.io
 !#if cap_html_filtering
 meconomynews.com,brandbrief.co.kr,motorgraph.com##^script:has-text(KCgpPT57bGV0IGU)
-issuya.com,topstarnews.net,islamicfinder.org,secure-signup.net##^script:has-text(error-report.com)
+topstarnews.net,islamicfinder.org,secure-signup.net,dramabeans.com,manta.com,tportal.hr,tvtropes.org,wouldurather.io##^script:has-text(error-report.com)
 !#else
 meconomynews.com,brandbrief.co.kr,motorgraph.com##+js(rmnt, script, KCgpPT57bGV0IGU)
-issuya.com,topstarnews.net,islamicfinder.org,secure-signup.net##+js(rmnt, script, error-report.com)
-||html-load.com/loader.min.js|$script,redirect=none:5,domain=freemcserver.net
+topstarnews.net,islamicfinder.org,secure-signup.net,dramabeans.com,manta.com,tportal.hr,tvtropes.org,wouldurather.io##+js(rmnt, script, error-report.com)
+||html-load.com^$redirect=noopjs,domain=aikatu.jp|adintrend.tv|ark-unity.com|cool-style.com.tw|doanhnghiepvn.vn|mynet.com
+aikatu.jp,adintrend.tv,ark-unity.com,cool-style.com.tw,doanhnghiepvn.vn,mynet.com##+js(nostif, error-report.com)
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91230
 ||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,redirect=fingerprint2.js,important
@@ -281,6 +284,9 @@ ericdraken.com##+js(aopr, dataLayer)
 ||c2shb.pubgw.yahoo.com/admax/bid/partners/PBJS
 ! doucolle.net analytics
 ||blozoo.info/js/inouttool/
+! https://github.com/uBlockOrigin/uAssets/issues/15809
+||hikari.jiocinema.com/v1/batch^
+||hikari.jiocinema.com/v1/track^
 ! https://github.com/uBlockOrigin/uAssets/issues/16478
 !||linkedin.com/li/track$xhr,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/22627
@@ -450,8 +456,8 @@ slickdeals.net##+js(href-sanitizer, a%5Bhref%5E%3D%22https%3A%2F%2Fslickdeals.ne
 ! https://github.com/uBlockOrigin/uAssets/issues/23590
 dk.pcpartpicker.com##+js(href-sanitizer, a%5Bhref%5E%3D%22https%3A%2F%2Fonline.adservicemedia.dk%2F%22%5D%5Bhref*%3D%22deeplink%3Dhttp%22%5D, %3Fdeeplink)
 ! https://github.com/uBlockOrigin/uBlock-discussions/discussions/775#discussioncomment-10120835
-justwatch.com##+js(href-sanitizer, a%3Ais(%5Bhref%5E%3D%22https%3A%2F%2Fclick.justwatch.com%2F%22%5D%2C%5Bhref%5E%3D%22https%3A%2F%2Fc.justwatch.com%2F%22%5D)%5Bhref*%3D%22r%3Dhttp%22%5D%3Anot(%5Bhref*%3D%22.pxf.io%22%5D), %3Fr)
-justwatch.com##+js(href-sanitizer, a%3Ais(%5Bhref%5E%3D%22https%3A%2F%2Fclick.justwatch.com%2F%22%5D%2C%5Bhref%5E%3D%22https%3A%2F%2Fc.justwatch.com%2F%22%5D)%5Bhref*%3D%22r%3Dhttp%22%5D%5Bhref*%3D%22.pxf.io%22%5D, %3Fr%3Fu)
+justwatch.com##+js(href-sanitizer, a%3Ais(%5Bhref%5E%3D%22https%3A%2F%2Fclick.justwatch.com%2F%22%5D%2C%5Bhref%5E%3D%22https%3A%2F%2Fd.justwatch.com%2F%22%5D)%5Bhref*%3D%22r%3Dhttp%22%5D%3Anot(%5Bhref*%3D%22.pxf.io%22%5D), %3Fr)
+justwatch.com##+js(href-sanitizer, a%3Ais(%5Bhref%5E%3D%22https%3A%2F%2Fclick.justwatch.com%2F%22%5D%2C%5Bhref%5E%3D%22https%3A%2F%2Fd.justwatch.com%2F%22%5D)%5Bhref*%3D%22r%3Dhttp%22%5D%5Bhref*%3D%22.pxf.io%22%5D, %3Fr%3Fu)
 ! https://github.com/uBlockOrigin/uAssets/issues/24675 - click tracking
 ||cdn.digg.com/fragments/homepage/static/view-frontpage.js
 ! https://chataigpt.org
@@ -492,6 +498,9 @@ clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 ! Google ads/analytics
 ! https://support.google.com/analytics/answer/10071811
 ! https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
+! https://support.google.com/analytics/answer/11479699
+! https://github.com/AdguardTeam/AdguardFilters/issues/162080
+! https://github.com/DandelionSprout/adfilt/issues/715
 ! Facebook analytics
 ! Yandex Metrika
 ! https://github.com/brave/brave-browser/issues/33216
@@ -528,6 +537,7 @@ clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 ! https://github.com/brave/brave-browser/issues/37971
 ! https://github.com/brave/brave-browser/issues/39575
 ! https://stackoverflow.com/questions/37882810/what-is-meaning-of-branch-match-id
+! https://github.com/brave/brave-browser/issues/40716
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-5867802
 ! youtube.com - Copy video URL at its search result via mouse right click.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/173471
@@ -536,6 +546,8 @@ clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-8955444
 ! https://github.com/brave/adblock-lists/pull/1455
 ! eBay tracking parameters
+! https://github.com/uBlockOrigin/uAssets/issues/25247
+! ||www.ebay.$removeparam=_trksid
 ! https://github.com/brave/brave-browser/issues/35094
 ! instagram.com - share tracking
 ! https://github.com/uBlockOrigin/uAssets/issues/18938#issuecomment-1693238481
@@ -543,6 +555,7 @@ clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
 !#if env_firefox
 !#endif
 ! Exceptions
+! https://github.com/uBlockOrigin/uAssets/issues/25350
 ! https://github.com/easylist/easylist/issues/16468#issuecomment-1691717458
 natgeotv.com##+js(no-xhr-if, %2FVisitorAPI%7CAppMeasurement%2F)
 natgeotv.com##+js(set, Visitor, %7B%7D)
@@ -554,7 +567,8 @@ natgeotv.com##+js(set, Visitor, %7B%7D)
 ! https://github.com/uBlockOrigin/uAssets/issues/19954
 ||cdn.cuty.io/fps.js$script
 ! https://lenovo.com/us/en/legal/copytrade/?orgRef=[...] - Search Google for "Lenovo copyright", Click on the first result
-www.lenovo.com##+js(aost, history.replaceState, injectedScript)
+! https://www.reddit.com/r/uBlockOrigin/comments/1f8yhos/lenovo_site_not_loading/
+www.lenovo.com##+js(trusted-replace-argument, history.replaceState, 2, '', condition, %3ForgRef)
 ! https://developers.google.com/tag-platform/tag-manager/server-side/send-data
 ! https://simoahava.com/analytics/server-side-tagging-google-tag-manager
 !*$1p,strict3p,script,header=via:1.1 google
@@ -652,13 +666,35 @@ vpnmentor.com##+js(cookie-remover, %2F_alooma%2F)
 ! https://www.euronews.com/my-europe/2024/08/11/ditching-generators-and-recycling-buildings-how-paris-did-the-olympics-different
 ! https://github.com/easylist/easylist/commit/04e9aa501ca9765523eed25f6409aa15f7e1a7a9
 ||g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js:5,domain=euronews.com,important
-! cloudflare first-party tracking
-/cdn-cgi/challenge-platform/scripts/jsd/main.js$script,1p
 ! onlyfans click tracking
 ||onlyfans.com/api2/v2/users/clicks-stats^
-! https://github.com/uBlockOrigin/uAssets/issues/25017
-||infinityscans.net/api/collect^
 ! https://github.com/uBlockOrigin/uAssets/issues/25016
 ||forecast.lemonde.fr/p/action/
+! spankbang tracking
+||spankbang.com/static/dist/desktop/js/analytics$script
+! https://github.com/uBlockOrigin/uAssets/issues/25180
+perplexity.ai##+js(aost, window.screen.height, setTimeout)
+! https://github.com/uBlockOrigin/uAssets/issues/25204
+nytimes.com##+js(no-fetch-if, api.theathletic.com%2Fgraphql%20body%3A%2FPostEvent%7CPostImpressions%2F)
+! https://www.oligo.security/blog/0-0-0-0-day-exploiting-localhost-apis-from-the-browser
+!#if cap_ipaddress
+!#endif
+! https://github.com/uBlockOrigin/uAssets/issues/25432
+||cdn.blueconic.net/hearst.js^$script,3p,redirect=noopjs,domain=bigrapidsnews.com
+! https://github.com/uBlockOrigin/uAssets/issues/25467
+||inficourses.com/_next/static/chunks/pages/course/%5Bslug%5D-$1p,script
+! https://github.com/uBlockOrigin/uAssets/issues/25467
+! cloudflare.com tracking
+blog.cloudflare.com,www.cloudflare.com##+js(no-fetch-if, method%3APOST%20body%3Azaraz)
+||radar.cloudflare.com/api/analytics
+! https://github.com/uBlockOrigin/uAssets/issues/25532
+||udc.yahoo.com^
+! https://github.com/uBlockOrigin/uAssets/issues/25558
+||gitbook.com/v1/integrations/googleanalytics/
+! https://www.reddit.com/r/uBlockOrigin/comments/1fzfpfj/a_small_issue_with_targetcom/
+!#if env_firefox
+!#else
+forum.blu-ray.com##+js(ra, onclick%7Concontextmenu%7Conmouseover, a%5Bhref%5D%5Bonclick*%3D%22this.href%22%5D, stay)
+!#endif
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt

@@ -6,7 +6,7 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-import { browser } from 'webextension-polyfill-ts';
+import { browser } from 'webextension-polyfill';
 
 import {
   BlockingResponse,
@@ -55,11 +55,19 @@ chrome.tabs.onUpdated.addListener((tabId, { status, url }) => {
   }
 });
 
+declare global {
+  interface Window {
+    adblocker: WebExtensionBlocker;
+  }
+}
+
 WebExtensionBlocker.fromLists(fetch, fullLists, {
   enableCompression: true,
   enableHtmlFiltering: true,
   loadExtendedSelectors: true,
 }).then((blocker: WebExtensionBlocker) => {
+  window.adblocker = blocker;
+
   blocker.enableBlockingInBrowser(browser);
 
   blocker.on('request-blocked', (request: Request, result: BlockingResponse) => {
