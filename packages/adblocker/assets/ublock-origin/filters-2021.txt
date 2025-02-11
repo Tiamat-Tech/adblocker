@@ -1109,20 +1109,9 @@ nudeof.com##.col-xl-4.col-lg-6.col-md-8.col-12.order-xl-1.order-lg-1.order-md-1.
 nudeof.com##div.happy-section
 ||rawcdn.githack.com/*/adbdetect.packed.js^$script
 ! https://github.com/uBlockOrigin/uAssets/issues/8802
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=skmedix.pl
-@@||pagead2.googlesyndication.com/getconfig/sodar$xhr,domain=skmedix.pl
-@@||pagead2.googlesyndication.com/pagead/$script,domain=skmedix.pl
-@@||tpc.googlesyndication.com/sodar/sodar2.js$script,domain=skmedix.pl
-@@||googleads.g.doubleclick.net/pagead/ads?*skmedix.pl&$frame,domain=skmedix.pl
-@@||fundingchoicesmessages.google.com^$script,xhr,domain=skmedix.pl
-@@||googleads.g.doubleclick.net/pagead/ads?$frame,domain=skmedix.pl
-@@||skmedix.pl^$ghide,script,1p
-||skmedix.pl/cdn-cgi/zaraz/$script,1p,important
-*$frame,redirect-rule=noopframe,domain=skmedix.pl
-skmedix.pl##+js(cookie-remover)
-skmedix.pl##+js(trusted-click-element, button.fc-button)
-skmedix.pl##.adsbygoogle:style(height: 3px !important; display: block !important;)
-skmedix.pl###aswift_4_host
+@@||skmedix.pl^$ghide
+skmedix.pl##+js(trusted-replace-outbound-text, atob, skmedix.com, skmedix.pl)
+skmedix.pl##div[align="center"][style="height:250px;"]:has(> ins.adsbygoogle)
 ! https://github.com/uBlockOrigin/uAssets/issues/8813
 kaotic.com##+js(nowoif)
 kaotic.com##.video-image > .track_outbound_post:upward(2)
@@ -2521,8 +2510,6 @@ quizlet.com##.StickyAdz
 quizlet.com##+js(rc, has-sidebar-adz%7CDashboardPage-inner, div%5Bclass%5E%3D%22DashboardPage-inner%22%5D, stay)
 quizlet.com##+js(rc, hasStickyAd, div.hasStickyAd%5Bclass%5E%3D%22SetPage%22%5D, stay)
 quizlet.com##+js(nano-stb)
-! https://github.com/uBlockOrigin/uAssets/issues/22151
-quizlet.com##div.has-adz:not(.SetPage):remove-class(has-adz)
 ! https://github.com/uBlockOrigin/uAssets/issues/23882
 quizlet.com##+js(set, __NEXT_DATA__.props.pageProps.adsConfig, undefined)
 ! https://github.com/uBlockOrigin/uAssets/issues/9911
@@ -3304,6 +3291,7 @@ paraphraser.io##.adsenbox:not(#detect)
 rephrase.info##.text-center:not([id]) [id^="adngin-"]:upward(.text-center:not([id]))
 ! https://github.com/uBlockOrigin/uAssets/issues/10495
 wouterplanet.com##+js(rmnt, script, clicky)
+@@||wouterplanet.com/scripts/ads-front.min.js$script,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/10494
 freexcafe.com##+js(acs, __PoSettings)
 freexcafe.com##.left-col-gal-br
@@ -3516,11 +3504,6 @@ xnxx-sex-videos.com##+js(nostif, %2Fout.php)
 ! https://github.com/uBlockOrigin/uAssets/issues/10685
 wpking.in##+js(acs, eval, replace)
 ! https://www.reddit.com/r/uBlockOrigin/comments/r71n9g/ifonca_adblock_popup/
-#@#.Ad-Container
-#@#.sidebar-ad
-##.Ad-Container:not(.adsbygoogle)
-##.sidebar-ad:not(.adsbygoogle)
-ekitan.com,kissanadu.com#@#.sidebar-ad:not(.adsbygoogle)
 ##.stream-item-widget
 ! https://github.com/uBlockOrigin/uAssets/issues/10707
 @@||printablebricks.com^$ghide
